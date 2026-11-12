@@ -1,1 +1,136 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yasmin Emilly | Creative Department</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Playfair+Display:ital,wght@0,600;1,600&family=Quicksand:wght@400;500;600;700&display=swap');
+
+:root {
+  --pink:#f5a8cf;
+  --hot:#e95a9f;
+  --light:#fff0f7;
+  --cream:#fff9ed;
+  --purple:#c7b2eb;
+  --ink:#56364b;
+}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:#fff4f8;color:var(--ink);font-family:'Quicksand',sans-serif}
+a{color:inherit;text-decoration:none}
+header{background:var(--pink);padding:15px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid white}
+.logo{font-weight:700;font-size:18px}
+nav{display:flex;gap:22px;font-size:12px;font-weight:700}
+nav a:hover{color:white}
+.hero{padding:90px 8% 75px;background:linear-gradient(135deg,#ffe4f1,#f8c4df,#e9dcff);position:relative;overflow:hidden}
+.tag{font-family:'DM Mono';font-size:11px;letter-spacing:2px}
+.hero h1{font-size:clamp(48px,8vw,92px);line-height:.98;margin:25px 0;color:#a83f78}
+.hero h1 em{font-family:'Playfair Display';font-weight:600}
+.hero p{max-width:480px;line-height:1.9;font-size:15px}
+.sticker{position:absolute;right:12%;top:24%;font-size:70px;transform:rotate(12deg)}
+.button{display:inline-block;background:var(--hot);color:white;padding:14px 24px;border-radius:30px;font-weight:700;font-size:12px;margin-top:15px}
+.button:hover{background:#b83e7a}
+section{padding:75px 8%}
+.section-tag{font-family:'DM Mono';font-size:10px;letter-spacing:2px;color:var(--hot)}
+h2{font-family:'Playfair Display';font-size:42px;margin:12px 0 25px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.note{background:white;padding:30px;box-shadow:8px 8px 0 var(--pink);transform:rotate(-1deg);line-height:1.9}
+.services{background:#f8d8e9}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--cream);padding:26px;border:1px solid #edb7d0;min-height:190px}
+.card .number{font-family:'DM Mono';color:var(--hot);font-size:12px}
+.card h3{font-family:'Playfair Display';font-size:23px}
+.card p{font-size:13px;line-height:1.8}
+.projects{background:#fff9ed}
+.project{border-top:1px dashed #d58bae;padding:24px 0;display:flex;justify-content:space-between;gap:20px;align-items:center}
+.project h3{font-family:'Playfair Display';font-size:23px;margin:0 0 8px}
+.project p{font-size:13px;margin:0;line-height:1.7}
+.project span{font-family:'DM Mono';font-size:10px;color:var(--hot);white-space:nowrap}
+.contact{background:#e9dcff;text-align:center}
+.contact p{line-height:1.8}
+footer{text-align:center;background:var(--pink);padding:22px;font-size:11px;font-family:'DM Mono'}
+@media(max-width:700px){
+ header{flex-direction:column;gap:15px}
+ nav{gap:12px;flex-wrap:wrap;justify-content:center}
+ .hero{padding:65px 7%}
+ .sticker{right:7%;top:10%;font-size:40px}
+ .about,.cards{grid-template-columns:1fr}
+ .project{flex-direction:column;align-items:flex-start}
+ h2{font-size:34px}
+}
+</style>
+</head>
+<body>
+<header>
+<a class="logo" href="#">Y♡ CREATIVE DEPT.</a>
+<nav>
+<a href="#about">ABOUT</a>
+<a href="#services">SERVICES</a>
+<a href="#projects">PROJECTS</a>
+<a href="#contact">CONTACT</a>
+</nav>
+</header>
+
+<main>
+<div class="hero">
+<div class="tag">✿ PERSONAL PORTFOLIO · EST. 2026</div>
+<div class="sticker">♡</div>
+<h1>Ideas with<br><em>intention.</em></h1>
+<p>Hi, I'm Yasmin — an administration student interested in creative strategy, marketing planning and making ideas happen through organization.</p>
+<a class="button" href="#projects">EXPLORE MY WORK ↗</a>
+</div>
+
+<section id="about">
+<div class="about">
+<div>
+<div class="section-tag">01 — A LITTLE ABOUT ME</div>
+<h2>Creativity meets organization.</h2>
+<p>I'm interested in the space between creative thinking and practical execution. I enjoy transforming ideas into structured plans, building systems and organizing projects with purpose.</p>
+<p>My approach combines curiosity, attention to detail and a strategic perspective.</p>
+</div>
+<div class="note">
+<strong>♡ CURRENTLY INTO</strong>
+<p>✿ Creative operations<br>✿ Strategic marketing<br>✿ Project organization<br>✿ Digital systems & dashboards<br>✿ Content planning</p>
+</div>
+</div>
+</section>
+
+<section class="services" id="services">
+<div class="section-tag">02 — WHAT I CAN DO</div>
+<h2>My creative toolkit.</h2>
+<div class="cards">
+<div class="card"><div class="number">01 / ORGANIZE</div><h3>Administrative Support</h3><p>Organizing information, documentation, workflows and digital systems.</p></div>
+<div class="card"><div class="number">02 / PLAN</div><h3>Marketing Planning</h3><p>Campaign structures, content briefs, research and strategic organization.</p></div>
+<div class="card"><div class="number">03 / CONNECT</div><h3>Project Management</h3><p>Task tracking, project dashboards, timelines and workflow organization.</p></div>
+</div>
+</section>
+
+<section class="projects" id="projects">
+<div class="section-tag">03 — SELECTED WORK</div>
+<h2>Little projects, big ideas.</h2>
+<div class="project">
+<div><h3>Administrative Systems</h3><p>Digital dashboards and organized workflows for better project management.</p></div>
+<span>GOOGLE SHEETS · 2026</span>
+</div>
+<div class="project">
+<div><h3>Brand Launch Plan</h3><p>A strategic planning concept for introducing a creative brand.</p></div>
+<span>MARKETING · 2026</span>
+</div>
+<div class="project">
+<div><h3>Blog Content Brief</h3><p>A structured content planning project focused on editorial strategy.</p></div>
+<span>CONTENT STRATEGY · 2026</span>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-tag">04 — LET'S CONNECT</div>
+<h2>Have a project in mind?</h2>
+<p>I'm open to creative collaborations and opportunities.</p>
+<a class="button" href="mailto:YOUR-EMAIL@example.com">SAY HELLO ♡</a>
+</section>
+</main>
+<footer>MADE WITH ♡ BY YASMIN EMILLY · 2026</footer>
+</body>
+</html>
+
